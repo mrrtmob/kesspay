@@ -85,6 +85,5 @@ class Kess {
     }
 }
 
-module.exports = {
-    Kess
-}
+module.exports = Kess
+

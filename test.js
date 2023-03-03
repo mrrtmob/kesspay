@@ -1,4 +1,4 @@
-const { Kess } = require('./kesspay')
+const { Kess } = require('./index.js')
 require('dotenv').config()
 
 
