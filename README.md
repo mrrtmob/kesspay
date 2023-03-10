@@ -11,13 +11,13 @@ This documentation aims to provide all the information you need to work with Kes
 
 ## Usage
 
-```bash
+```javascript
   const Kess = require('kesspay')
 ```
 
 Create new instance of Kess
 
-```bash
+```javascript
   const kess = new Kess({
         API_URL: {YOUR_API_URL},
         USERNAME: {YOUR_USERNAME},
