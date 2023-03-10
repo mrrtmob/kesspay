@@ -47,13 +47,7 @@ console.log(link)
 List all payment method
 
 ```javascript
-const allPaymentMethod = await kess.generatePaymentLink({
-        body: "Delishop",
-        currency: "USD",
-        out_trade_no: "TR-20230310104700",
-        total_amount: 10,
-        invoke_reuse: 1
-    })
+const allPaymentMethod = await kess.listAllPaymentMethod()
 console.log(allPaymentMethod)
 ```
 
